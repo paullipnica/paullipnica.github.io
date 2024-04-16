@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <title>Cashier</title>
+</head>
+<body>
+    <div class="container">
+            <h1 id="AdminHeader">Admin</h1>
+            <h1 id="CheckoutHeader">Checkout</h1>
+            <h1 id="ReceiptHeader">Receipt</h1>
+        </div>
+<div class="pBody">
+            <div id="AdminBody">
+                    <p>Add a new product</p>
+                        <div id="Product">
+                            <input type="text" id="ProductValue" placeholder="Enter product...">
+                            <button id="ProductButton">Add Product</button>
+                        </div>
+                    <p>Select a product then type the number of units</p>
+ <br>
+                        <div id="Price">
+                            <select id="DropDownPrice">
+                        <!-- Where items are stored -->
+                            </select>
+                            <button id="PriceButton">Add Price</button>
+                            <input type="text" id="PriceValue" placeholder="Enter Price...">
+                        </div>
+            </div>
+            
+ </div>
+
+     <div id ="CheckoutBody">
+            <button id="TransactionButton">New Transaction</button>
+            <p>Select a product then add the price per unit</p>
+<br>
+        
+            <div id="Calculator">
+                <select id="DropDownCalculator">
+                </select>
+                <p>unit:</p>
+                <input type="text" id="CalculatorValue" placeholder="unit" maxlength="1">
+                <button onclick="addColumn()" id="CartButton">Add To Cart</button>
+            </div>
+
+            <div class="NumberCalculator">
+                <button class="button1" onclick="addToDisplay('1')">1</button>
+                <button class="button1" onclick="addToDisplay('2')">2</button>
+                <button class="button1" onclick="addToDisplay('3')">3</button>
+                <button class="button1" onclick="addToDisplay('4')">4</button>
+                <button class="button1" onclick="addToDisplay('5')">5</button>
+                <button class="button1" onclick="addToDisplay('6')">6</button>
+                <button class="button1" onclick="addToDisplay('7')">7</button>
+                <button class="button1" onclick="addToDisplay('8')">8</button>
+                <button class="button1" onclick="addToDisplay('9')">9</button>
+              </div>
+
+<br>
+<br>
+            <button id="PayButton">Pay</button>
+    </div>
+
+        <div id = "ReceiptBody">
+            <table id="TABLE" border="1"> 
+                        <tr>
+                            <th width="500px" align="left" colspan="4" id="datetime1"></th>
+                        </tr>
+                        <tr>
+                            <th width="500px" align="left" colspan="4" id="datetime2"></th>
+                        </tr>
+                        <tr>
+                            <th>Product</th>
+                            <th>$/Unit</th>
+                            <th>Unit(s)</th>
+                            <th>Price</th>
+                        </tr>
+                        <tr>
+                            <td id="TotalPrice" colspan="4" >Total Price:</td>
+                        </tr>
+                        <tr>
+                            <td id="Taxes" colspan="4" >Taxes:</td>
+                        </tr>
+                        <tr>
+                            <td id="AmountDue" colspan="4" >Amount Due:</td>
+                        </tr>
+            </table>
+        </div>
+
+        
+
+</div>
+        
+
+    
+</body>
+</html>

@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#175873;
+}
+
+.container h1 {
+    width: 100%; 
+    margin: 0; 
+    text-align: center; 
+    box-sizing: border-box;
+    padding: 0; 
+    color:white;
+}
+
+.container h1:not(:first-child) {
+    border-left: 2px solid white;
+}
+
+.pBody {
+    display:flex;
+    flex-direction: column;
+    background-color: #2B7C85;
+
+}
+#AdminBody {
+    display: flex;
+    flex-direction: column;
+    width: 33.4%; 
+    height: 500px;
+    margin: 0px; 
+    border: 1.5px solid white;
+    padding: 20px; 
+    box-sizing: border-box; 
+    color:black;
+    justify-content: flex-start;
+    
+}
+
+
+#CheckoutBody {
+    display: flex;
+    flex-direction: column;
+    width: 33.4%; 
+    height: 500px;
+    margin-left:  33.3%; 
+    margin-top: -500px;
+    border: 1.5px solid white;
+    padding: 20px; 
+    box-sizing: border-box; 
+    color:black;
+}
+
+
+
+#ReceiptBody{
+    display: flex;
+    width: 33.35%; 
+    height: 500px;
+    margin-left:  66.66%; 
+    margin-top: -500px;
+    border: 1.5px solid white;
+    padding: 20px; 
+    box-sizing: border-box; 
+    color:black;
+}
+
+
+#Product{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: 30px;
+
+    #ProductValue{
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 150px;
+        font-size: 12px;
+    }
+
+    #ProductButton {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #175873;
+        color: #fff;
+        font-size: 12px;
+        cursor: pointer;
+        width: 100px;
+    }
+
+    #ProductButton:hover {
+        background-color: rgb(111, 111, 111);
+      }
+}
+
+
+#Price{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    height:35px;
+    margin-left: 12px;
+
+    #DropDownPrice{
+        display:flex;
+        margin-left: 90px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    #PriceValue{
+        display:flex;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 150px;
+        font-size: 12px;
+        height: 15px;
+    }
+
+    #PriceButton {
+        order: 3;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: grey;
+        color: #fff;
+        font-size: 12px;
+        cursor: pointer;
+        width: 100px;
+    }
+    #PriceButton:hover {
+        background-color: rgb(111, 111, 111);
+      }
+}
+
+#TransactionButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    width: 100%;    
+    margin-top: 19px;
+    margin-bottom: 30px;
+}
+#TransactionButton:hover {
+    background-color: rgb(111, 111, 111);
+  }
+
+
+#Calculator{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height:35px;
+    margin-left: 12px;
+
+   
+    #DropDownCalculator{
+         display:flex;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+    #CalculatorValue{
+        display:flex;
+        
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 100px;
+        font-size: 12px;
+        height: 15px;
+      
+    }
+    #CartButton {
+        order: 3;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: grey;
+        color: #fff;
+        font-size: 12px;
+        cursor: pointer;
+        width: 100px;
+        
+    }
+
+    #CartButton:hover {
+        background-color: rgb(111, 111, 111);
+      }
+
+}
+
+
+.NumberCalculator {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+  }
+  .button1 {
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    background-color: grey;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .button1:hover {
+    background-color: rgb(111, 111, 111);
+  }
+
+
+  #PayButton {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    width: 100px;
+}
+#PayButton:hover {
+    background-color: rgb(111, 111, 111);
+  } 
+
+  #TABLE {
+    border-collapse: collapse;
+    background-color: white;
+    height: 200px;
+  }
