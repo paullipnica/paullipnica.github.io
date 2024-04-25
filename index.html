@@ -1,16 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <script src="scripts.js"></script>
-  <title>Website Under Construction</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="index.css">
+   <script src="index.js"></script> 
+    <link rel="stylesheet" href="/styles/mobile.css" media="handheld" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <title>Document</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Website Under Construction</h1>
-    <p>We're currently working on our website. Please check back soon!</p>
-  </div>
+
+  
+        <div class="header">
+                <h1>Paul Lauraya Lipnica</h1>
+                <p>Web Design & Development</p>
+        </div>
+    <br>
+    <div class ="navandread">
+        <div class="navigation">
+            <ul>
+                <li onclick="homeButton()">Home</li>
+                <li onclick="informationButton()">Information</li>
+                <li onclick="projectsButton()">Projects</li>  <!--1. Food Recipe Website   2. HTML Cheatsheet    3. CSS Cheatsheet    4.JS Cheatsheet-->
+                <li onclick="resourcesButton()">Resources</li>
+                <li onclick="contactButton()">Contact</li>
+            </ul>
+        </div>
+    <br>
+        <div class ="readoption">
+            <ul>
+                <button onClick="lightColor()">Light</button>
+                <button onClick="darkColor()">Dark</button>
+               
+            </ul>
+        </div>
+    </div>
+  
+    <div class="container">
+        <div class="content">
+            
+                <h1>Welcome to My Website</h1>
+<hr>
+                <div id="homeContent"> 
+                <p>I am a University of Wollongong Australia graduate </p>
+                <p>now aspiring to be a Software Developer.</p>
+                <p>I am currently enrolled at Bow Valley College </p>
+                <p>taking on the Software Development Diploma.</p>
+                </div>
+<br>
+<br>
+<br>
+
+            <div id="AllContent">
+
+                <div id="emptyContent" style="display: none;"> 
+                    <h1></h1>
+<br>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                        <div id="projectsContent" style="display: none;"> 
+                            <h1>Projects</h1>
+<br>
+
+                        <a href="jimThorpeBiographyWeb/biography.html" target="_blank">Jim Thorpe Biography</a>
+                        <a href="albumCustomizationWeb/lyrics.html" target="_blank">Music Album</a>
+                        <a href="marketCashierWeb/index.html" target="_blank">Model Market Cashier</a>
+
+                        </div>
+
+                        <div id="informationContent" style="display: none;"> 
+                            <h1>Information</h1>
+<br>
+                            <a href="resumeWeb/resume.html" target="_blank">Resume</a>
+                        </div>
+
+                        <div id="resourcesContent" style="display: none;"> 
+                            <h1>Resources</h1>
+<br>
+                            <a href="htmlCheatsheet/cheatsheet.html" target="_blank">HTML Cheatsheet</a>
+                            <a href="cssCheatsheet/csscheatsheet.html" target="_blank">CSS Cheatsheet</a>
+                            <a href="jsCheatsheet/jscheatsheet.html" target="_blank">Javascript Cheatsheet</a>
+                        </div>
+
+                        <div id="contactContent" style="display: none;"> 
+                            <h1>Contact Me</h1>
+<br>
+                            <a href="https://www.linkedin.com/in/paullipnica" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                            <a href="https://github.com/paullipnica" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
+                            <a href="mailto:paul.lipnica@gmail.com"><i class="fa-solid fa-envelope"></i>E-Mail</a>
+                        </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
