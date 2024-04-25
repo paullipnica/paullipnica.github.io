@@ -1,0 +1,135 @@
+
+
+body{
+    display:flex;
+    flex-direction: column;
+ font-family: "Orbitron", sans-serif;
+ font-size: smaller;
+ text-transform: lowercase;
+    background-color: rgb(96,100,98,0.3);
+    
+}
+
+.header{
+    text-transform:lowercase;
+    justify-content: space-between;
+    padding-left: 10px;
+
+    h1{
+        color:#093F2D;
+       
+    }
+
+    p{
+        color:#093F2D;
+        padding-top: 4px;
+    }
+}
+
+
+.navandread{
+    display:flex;
+}
+
+.navigation{
+    text-transform:lowercase;
+    color:#093F2D;
+    order:-1;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-left: 10%; 
+    margin-right: auto;
+    cursor: pointer;
+    
+
+    ul{
+        display:flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    ul > *{
+        padding: 5px;
+}
+}
+
+.readoption{
+    color: #093F2D;
+    padding-left: 10px;
+    order:0;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-left: auto; 
+    margin-right: 10%;
+   
+    button{
+        background-color: transparent; 
+        border: none; 
+        color: inherit; 
+        font-family: inherit; 
+        font-size: inherit; 
+        cursor: pointer; 
+        padding: 0; 
+        margin: 0; 
+        text-transform:lowercase;
+    }
+
+}
+
+.container  {
+    display:flex;
+    flex-direction: column;
+    width: 90%; 
+    height: 700px;
+    margin: 20px auto; 
+    border: 1px solid #093F2D;
+    padding: 20px; 
+    box-sizing: border-box; 
+    color:#00735C;
+}
+
+.content {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    text-transform: lowercase;
+    color:#093F2D;
+}
+
+#homeContent {
+   line-height: 2;
+      
+}
+
+#emptyContent {
+    text-align: right;
+    font-size: x-large;
+
+    p {
+        line-height: 3;
+      }
+      
+}
+
+a {
+   
+    display: flex;
+    justify-content: flex-end;
+    line-height: 3;
+    text-decoration: none; 
+    color: inherit;
+}
+
+a:hover {
+	margin-right: 10px;
+}
+
+i{
+    font-size:30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
