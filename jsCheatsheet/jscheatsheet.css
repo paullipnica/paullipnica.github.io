@@ -1,0 +1,130 @@
+
+
+body{
+ font-family: "Orbitron", sans-serif;
+ font-size: smaller;
+ text-transform: lowercase;
+    background-color: rgb(96,100,98,0.3);
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color:white;
+    height: 1px;
+  }
+
+.header{
+    text-transform:lowercase;
+    justify-content: space-between;
+    padding-left: 10px;
+
+    h1{
+        color:#093F2D;
+       
+    }
+
+    p{
+        color:#093F2D;
+        padding-top: 4px;
+    }
+}
+
+h1:not(.header > h1){
+    text-align: right;
+}
+
+.navandread{
+    display:flex;
+}
+
+
+
+.readoption{
+    color: #093F2D;
+    padding-left: 10px;
+    order:0;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-left: auto; 
+    margin-right: 10%;
+   
+    button{
+        background-color: transparent; 
+        border: none; 
+        color: inherit; 
+        font-family: inherit; 
+        font-size: inherit; 
+        cursor: pointer; 
+        padding: 0; 
+        margin: 0; 
+        text-transform:lowercase;
+    }
+
+}
+
+
+
+
+.container  {
+    display:flex;
+    flex-direction: column;
+    width: 90%; 
+    height: 700px;
+    margin: 20px auto; 
+    border: 1px solid #093F2D;
+    padding: 20px; 
+    box-sizing: border-box; 
+    color:#093F2D;
+}
+
+
+.sheetContent1 {
+    display: flex; 
+    word-spacing: 5px;
+}
+
+.sheetContent1 > div {
+    margin-right: 100px;
+    padding: 20px;
+}
+
+
+.sheetContent2 {
+    display: flex; 
+}
+
+.sheetContent2 > div {
+    margin-right: 100px;
+    
+}
+.pages {
+    display: flex;
+    flex-direction: column;
+}
+
+#next,
+#previous {
+ 
+    cursor: pointer;
+    transition: margin-right 0.3s; 
+}
+
+#next:hover,
+#previous:hover {
+    margin-right: 300px; 
+   
+}
+
+code {
+    font-size: 14px;
+}
+
+.SHEET {
+    font-size: 11px;
+}
+

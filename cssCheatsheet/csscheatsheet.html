@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="csscheatsheet.css">
+   <script src="csscheatsheet.js"></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheatsheet - Page 1 of 2</title>
+</head>
+<body>
+
+
+    <div class="header">
+        <h1>Paul Lauraya Lipnica</h1>
+        <p>Web Design & Development</p>
+</div>
+<br>
+<div class ="navandread">
+
+<br>
+<div class ="readoption">
+    <ul>
+        <button onClick="lightColor()">Light</button>
+        <button onClick="darkColor()">Dark</button>
+       
+    </ul>
+</div>
+</div>
+
+<div class="container">
+            
+            <h1>CSS Cheatsheet</h1>
+
+            <h2 id="cheatsheetHeader1">Page 1 of 2</h2>
+            <h2 id="cheatsheetHeader2" style="display: none">Page 2 of 2</h2>
+
+            <div class="pages">
+                     <p id="next" onclick="nextButton()" >Next Page</p>   
+                     <p id="previous" onclick="previousButton()">Previous Page</p>   
+            </div>        
+
+
+
+            
+    
+
+            <div class="SHEET">
+                <div class="sheetContent1">
+                    <div id="basicTags" >
+                        <h3>Font Properties</h3>
+                        <p>
+                            Font-Family<br>
+                            Changes the font family of certain words, sentences, paragraphs, etc.<br>
+                            <code>P { font-family: "New Century Schoolbook", Times, serif; }</code>
+                        </p>
+                        
+                        <p>
+                            Font-Style<br>
+                            Changes text: normal, oblique, and italics.<br>
+                            <code>H1 { font-style: oblique; }</code><br>
+                            <code>P { font-style: normal; }</code>
+                        </p>
+                        
+                        <p>
+                            Font-Variant<br>
+                            Used to display font in normal or small-caps.<br>
+                            <code>SPAN { font-variant: small-caps; }</code>
+                        </p>
+                        
+                        <p>
+                            Font-Weight<br>
+                            Used to specify the weight of the font.<br>
+                            <code>H1 { font-weight: 800; }</code> or <code>P { font-weight: normal; }</code>
+                        </p>
+                        
+                        <p>
+                            Font-Size<br>
+                            Used to modify the size of the displayed font.<br>
+                            <code>H1 { font-size: large; }</code> or <code>P { font-size: 12pt; }</code><br>
+                            <code>LI { font-size: 90%; }</code><br>
+                            <code>STRONG { font-size: larger; }</code>
+                        </p>
+                        
+                
+                    </div>
+
+                    <div id="textTags">
+                                <h3><strong>Color and Background Properties</strong></h3>
+                                <p>
+                                    Color<br>
+                                    Changes the color of text.<br>
+                                    <code>H1 { color: blue; }</code> or <code>H2 { color: #000080; }</code>
+                                </p>
+                                
+                                <p>
+                                    Background-Color<br>
+                                    Sets the background color of an element.<br>
+                                    <code>BODY { background-color: white; }</code><br>
+                                    <code>H1 { background-color: #000080; }</code>
+                                </p>
+                                
+                                <p>
+                                    Background-Image<br>
+                                    Sets the background image of an element.<br>
+                                    <code>BODY { background-image: url(/images/foo.gif); }</code><br>
+                                    <code>P { background-image: url(http://www.htmlhelp.com/bg.png); }</code>
+                                </p>
+                                
+                                <p>
+                                    Background-Repeat<br>
+                                    Determines how a specified background image is repeated.<br>
+                                    The repeat-x value will repeat the image horizontally while the repeat-y value will repeat the image vertically.<br>
+                                    <code>BODY { background: white url(candybar.gif); background-repeat: repeat-x; }</code>
+                                </p>
+                                
+                                <p>
+                                    Background-Attachment<br>
+                                    Determines if a specified background image will scroll with the content or be fixed with regard to the canvas.<br>
+                                    <code>BODY { background: white url(candybar.gif); background-attachment: fixed; }</code>
+                                </p>
+                            
+                                
+                    </div>
+
+                
+            </div>
+</div>
+
+<div class="container2" style="display: none">
+
+            <div class="sheetContent2" >
+                    <div id="basicTags2" >
+                                <h3>Margin</h3>
+                                <p>
+                                    Margin-Top<br>
+                                    Sets the top margin of an element by specifying a length or a percentage.<br>
+                                    <code>BODY { margin-top: 5pt; }</code>
+                                </p>
+                                
+                                <p>
+                                    Margin-Right<br>
+                                    Sets the right margin of an element by specifying a length or a percentage.<br>
+                                    <code>P.narrow { margin-right: 50%; }</code>
+                                </p>
+                                
+                                <p>
+                                    Margin-Bottom<br>
+                                    Sets the bottom margin of an element by specifying a length or a percentage.<br>
+                                    <code>DT { margin-bottom: 3em; }</code>
+                                </p>
+                                
+                                <p>
+                                    Margin-Left<br>
+                                    Sets the left margin of an element by specifying a length or a percentage.<br>
+                                    <code>ADDRESS { margin-left: 50%; }</code>
+                                </p>
+                                
+                                <p>
+                                    Margin<br>
+                                    Sets the margins of an element by specifying top, bottom, left and right margins -- all either specifying length or percentage.<br>
+                                    <code>BODY { margin: 5em; }</code> (all margins 5em)<br>
+                                    <code>P { margin: 2em 4em; }</code> (top & bottom 2em, left & right 4em)<br>
+                                    <code>DIV { margin: 1em 2em 3em 4em; }</code> (top margin 1em, right 2em, bottom 3em, left 4em)
+                                </p>
+                      </div>
+
+                    <div id="textTags2">
+                            <h3>Padding</h3>
+                            <p>
+                                Padding-Top<br>
+                                Describes the amount of space between the top border and the content of the selector.<br>
+                                <code>P { padding-top: 20%; }</code>
+                            </p>
+                        
+                            <p>
+                                Padding-Right<br>
+                                Describes the amount of space between the right border and the content of the selector.<br>
+                                <code>P { padding-right: 20px; }</code>
+                            </p>
+                        
+                            <p>
+                                Padding-Bottom<br>
+                                Describes the amount of space between the bottom border and the content of the selector.<br>
+                                <code>P { padding-bottom: 5em; }</code>
+                            </p>
+                        
+                            <p>
+                                Padding-Left<br>
+                                Describes the amount of space between the left border and the content of the selector.<br>
+                                <code>P { padding-left: 15pt; }</code>
+                            </p>
+                        
+                            <p>
+                                Padding<br>
+                                Shorthand for the padding-top, padding-right, padding-bottom, and padding-left properties.<br>
+                                <code>BLOCKQUOTE { padding: 2em 4em 5em 4em; }</code>
+                            </p>
+                    </div>
+             </div>
+        </div>
+
+<div>
+
+    
+    
+
+
+
+
+
+
+</body>
+</html>
+
+</body>
+</html>
